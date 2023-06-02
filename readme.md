@@ -7,7 +7,7 @@ Reliable file transfer by reading pixels at 110kb/s+
 ## Usage
 Server side:
 ```shell
-python server_nbit.py <my_file>
+python server_nbit.py my_file
 ```
 
 Client side:
