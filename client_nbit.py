@@ -175,6 +175,7 @@ class WarpClient:
                 print("INFO file_md5=", m["file_md5"])
                 self.n_pages = int(math.ceil(int(m["file_size"]) / int(m["page_size"])))
                 print("================================== starting warping, num pages:", self.n_pages)
+                print("ready to warp, press 'N' to continue")
                 # initialize file
                 with open(m["file_name"], "w"):
                     pass
